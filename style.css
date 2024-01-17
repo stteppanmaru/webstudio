@@ -3,7 +3,6 @@ header{
 height: 80px;
 }
 a{
-    text-decoration: none;
     color: currentColor;
 }
 a:hover{
@@ -15,71 +14,57 @@ ul{
 body{
     font-family:Roboto;
 }
-.logoweb{
-    color: #2196F3;
-font-family: Raleway;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
+.conteiner {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+.header{
+    color: #212121;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px; 
 }
 .logo{
-    color: #000;
-font-family: Raleway;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
+     color: #2196F3;
 }
-.info{
+.info-header{
     color: #212121;
-
-font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 500;
-line-height: normal;
 letter-spacing: 0.28px;
-}
-.info >a:hover{
-    color: #2196F3;
 }
 .communication{
     color: #757575;
-
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
+    font-size: 14px;
 font-weight: 500;
-line-height: normal;
 letter-spacing: 0.28px;
+
 }
-.decision{
+.banner{
     width: 1600px;
 height: 600px;
 flex-shrink: 0;
 background: #2F303A;
 }
-.decision>h2{
+.banner>h2{
     color: #FFF;
-
 text-align: center;
-font-family: Roboto;
 font-size: 44px;
-font-style: normal;
 font-weight: 900;
-line-height: 60px; /* 136.364% */
+line-height: 1,36; /* 136.364% */
 letter-spacing: 2.64px;
 text-transform: uppercase;
 }
-.decision>button{
+.banner>button{
     color: #FFF;
     text-align: center;
-font-family: Roboto;
 font-size: 16px;
-font-style: normal;
 font-weight: 700;
-line-height: 30px; /* 187.5% */
+line-height: 1,875; /* 187.5% */
 letter-spacing: 0.96px;
 background-color: #2196F3;
 }
@@ -89,9 +74,7 @@ height: 98px;
 }
 .details>h3{
     color: #212121;
-font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 0.42px;
@@ -99,15 +82,8 @@ text-transform: uppercase;
 }
 .details>p{
     color: #757575;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
 font-weight: 400;
-line-height: 24px; /* 171.429% */
-}
-.work{
-    width: 1170px;
-height: 386px;
+line-height: 1,64; /* 171.429% */
 }
 .work >h4{
     color: #212121;
@@ -119,6 +95,7 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
 }
+
 .team{
     width: 1600px;
 height: 648px;
@@ -214,7 +191,7 @@ font-family: Roboto;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
-line-height: 26px; /* 162.5% */
+line-height: 26; /* 162.5% */
 letter-spacing: 0.48px;
 border-radius: 4px;
 background: #F5F4FA;
@@ -234,6 +211,6 @@ font-family: Roboto;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px; /* 187.5% */
+line-height: 30; /* 187.5% */
 letter-spacing: 0.48px;
 }
